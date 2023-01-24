@@ -20,6 +20,7 @@
 </script>
 
 <main class="container">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/giriss/todo-svelte">→ View code on GitHub</a>
   <h1>Svelte Todo App</h1>
   <TodoAdder on:todo={addTodo} />
   <TodoList items={todos} on:toggle={toggleTodo} on:delete={deleteTodo} />
